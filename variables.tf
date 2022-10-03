@@ -4,6 +4,6 @@ variable "ami_owner" {
 }
 
 variable "subnet_id" {
-  default = "subnet-06c642911a6600923"
+  default = "subnet-073057f528161fd85"
   type    = string
 }
