@@ -7,3 +7,8 @@ variable "subnet_id" {
   default = "subnet-073057f528161fd85"
   type    = string
 }
+
+variable "key_name" {
+  default = "lenovo"
+  type    = string
+}
