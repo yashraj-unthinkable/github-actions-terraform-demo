@@ -19,3 +19,4 @@ jobs:
       - name: checkout repo code
         uses: actions/checkout@v3
       - run: terraform init
+      - run: terraform plan
