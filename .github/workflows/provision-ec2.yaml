@@ -2,7 +2,7 @@ name: Provision EC2
 run-name: ${{ github.actor }} created EC2
 on: [push]
 jobs:
-  Terraform:
+  Provision_EC2:
     runs-on: ubuntu-20.04
     steps:
       - name: Configure AWS CLI
